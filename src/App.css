@@ -1,0 +1,27 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.menu {
+  display: flex;
+  flex: 1;
+  position: relative;
+}
+
+.centro {
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  margin-top: 100px;
+  position: absolute;
+  margin-left: 272px;
+  flex: 1;
+  display: flex;
+}
+
+main {
+  flex: 1;
+  padding: 1rem;
+}
